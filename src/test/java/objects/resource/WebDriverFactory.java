@@ -21,10 +21,11 @@ public class WebDriverFactory {
             }
 
             case "yandex": {
+                String yandexBinaryPath = System.getenv("YANDEX_BROWSER_PATH");
                 String driverPath = "C:\\Users\\Nick\\Desktop\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe";
                 System.setProperty("webdriver.chrome.driver", driverPath);
                 ChromeOptions options = new ChromeOptions();
-                options.setBinary("C:\\Users\\Nick\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe");
+                options.setBinary(yandexBinaryPath);
                 options.addArguments(
                         "--no-sandbox",
                         "--headless",
