@@ -1,9 +1,9 @@
-# Diplom_3
+
 
 UI тестирование для Stellar [Burgers](https://stellarburgers.nomoreparties.site/).
 
 
-# Задание:
+# Задача:
 _Опиши элементы, которые будешь использовать в тестах, с помощью Page Object.
 Протестируй функциональность в Google Chrome и Яндекс.Браузере. 
 Подключи Allure-отчёт._
